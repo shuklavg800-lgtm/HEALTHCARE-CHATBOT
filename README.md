@@ -15,18 +15,7 @@ Ensure you have the following installed:
 
 Python 3.x
 Required Python packages (install using pip install -r requirements.txt)
-Clone the Repository
- git clone https://github.com/yourusername/healthcare-chatbot.git
- cd healthcare-chatbot
-Install Dependencies
-pip install -r requirements.txt
-Usage
-Run the chatbot using:
-python chatbot.py
-Follow the prompts to enter symptoms.
-The bot will analyze the symptoms and provide potential diagnoses, descriptions, and precautionary measures.
-File Structure
-healthcare-chatbot/
+
 ├── Data/
 │   ├── Training.csv
 │   ├── Testing.csv
@@ -37,6 +26,7 @@ healthcare-chatbot/
 ├── chatbot.py
 ├── requirements.txt
 ├── README.md
+
 Technologies Used
 Python for scripting
 Scikit-learn for machine learning
